@@ -159,21 +159,20 @@ h5 {
 
 .mainHeader{
 	display:flex;
-	align-items:center;
-	width:100%;
+	
 }
 
 .mainHeader .navbar {
 	width:100%;
 	display:flex;
 	align-items:center;
-	justify-content:space-between;
+	align-content:space-between;
 }
 
 .mainHeader .navbar ul {
 	display:flex;
 	justify-content:space-evenly;
-	width:60%;
+	width:100%;
 }
 
 .mainHeader .navbar ul li a {
@@ -183,13 +182,133 @@ h5 {
 }
 
 .service{
-	width:100%;
 	display:flex;
 	flex-direction:column;
-	justify-items:center;
+	justify-content:center;
+	width:80%;
+	margin:20px 10%;
 }
 
 
+/*Content*/
+
+.content .topTwo {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	margin:20px 0 0 0;
+}
+
+.content .middleTwo {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+}
+
+.content .bottomTwo {
+	display:flex;
+	flex-direction:row;
+	justify-content:space-evenly;
+	margin:0 0 20px 0;
+}
+
+
+
+
+.digital{
+	width:35%;
+	border: solid black 1px;
+	padding:20px;
+	background-color:oldlace;
+	margin:0px 0px 10px 0px;
+}
+
+.ui{
+	width:35%;
+	border: solid black 1px;
+	padding:20px;
+	background-color:oldlace;
+	margin:0px 0px 10px 0px;
+}
+
+.marketing{
+	width:35%;
+	border: solid black 1px;
+	padding:20px;
+	background-color:oldlace;
+	margin:0px 0px 10px 0px;
+}
+
+.web{
+	width:35%;
+	border: solid black 1px;
+	padding:20px;
+	background-color:oldlace;
+	margin:0px 0px 10px 0px;
+}
+
+.ios{
+	width:35%;
+	border: solid black 1px;
+	padding:20px;
+	background-color:oldlace;
+	margin:0px 0px 10px 0px;
+}
+
+.android{
+	width:35%;
+	border: solid black 1px;
+	padding:20px;
+	background-color:oldlace;
+	margin:0px 0px 10px 0px;
+}
+
+.learn{
+	color:#ccc;
+	text-decoration:none;
+	font-size:10px;
+	border: solid black 1px;
+	margin: 10px 0px 0px 10px ;
+	padding:5px 25px;
+	border-radius:5px;
+}
+
+p{
+	margin:0px 0px 20px 0px;
+}
+
+hr{
+	border: 3px black solid;
+	width:80%;
+}
+
+/*Footer*/
+
+.facts{
+	display:flex;
+	justify-content:center;
+	width:80%;
+	margin:20px 10%;
+}
+
+.factP{
+	margin:0 40px 0 0;
+}
+
+footer .copyright {
+  text-align: center;
+	margin:40px 0 10px 0;
+}
+
+.services-info-img{
+	width:40%;
+	height:40%;
+}
+
+li{
+	list-style-type:square;
+	margin:0 0 10px 25px;
+}
 
 
 
